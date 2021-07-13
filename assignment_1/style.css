@@ -1,7 +1,9 @@
 /*---------------------
     Font Import
 -----------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 
 /*---------------------
     Main Body
@@ -16,3 +18,47 @@ body{
 /*---------------------
     Header Style
 -----------------------*/
+
+
+
+
+/*---------------------------
+    All Players information
+            card
+-----------------------------*/
+
+/* display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px; */
+
+.football-players {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 165px 0;
+}
+
+.all-players-info {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 27px 0;
+}
+
+.player-card {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    margin: 0 15px;
+}
+
+.player-img img{
+    width: 330px;
+    height: 256px;
+}
+
+
+/*---------------------------
+    Highlights Information
+-----------------------------*/
+
