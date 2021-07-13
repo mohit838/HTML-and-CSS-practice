@@ -45,7 +45,7 @@ padding: 15px; */
 }
 
 .player-card {
-    width: 330px;
+    width: 300px;
     height: 474px;
     padding: 15px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
@@ -53,7 +53,7 @@ padding: 15px; */
 }
 
 .player-img img{
-    width: 330px;
+    width: 300px;
     height: 256px;
 }
 
@@ -69,13 +69,18 @@ padding: 15px; */
 }
 
 .highlights-info {
-    padding-left: 170px;
+    padding-left: 175px;
     padding-right: 66px;
 }
 
 .highlights-info h1{
     font-size: 48px;
     font-weight: 700;
+    padding-right: 20px;
+}
+
+.highlights-info p{
+    padding-right: 75px;
 }
 
 .highligts-img img {
@@ -83,3 +88,21 @@ padding: 15px; */
     height: 427px;
     margin-right: 125px;
 }
+
+.watch-now-btn {
+    padding-top: 24px;
+}
+
+.watch-now-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 500;
+}
+
+/* .watch-now-btn a i{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+} */
