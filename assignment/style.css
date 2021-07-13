@@ -1,0 +1,164 @@
+/* CSS Start Here */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*==Header Section==*/
+.header-section{
+    display: flex;
+    margin: 50px 50px 90px 50px;
+}
+
+.half-section{
+    width: 50%;
+}
+
+.left-sec{
+    margin: 123px 40px 0;
+}
+
+.half-section h1{
+    font-size: 53px;
+    font-weight: 700;
+    color: rgb(85, 84, 84)
+}
+
+.half-section p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #575757;
+}
+
+.half-section img{
+    width: 100%;
+    height: auto;
+}
+
+.text-color{
+    color: #fb8847;
+}
+
+.link-btn{
+    margin-top: 70px;
+}
+
+.link-btn a{
+    text-decoration: none;
+    font-weight: 500;
+    /*background-color: tomato;*/
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(-270deg, #fc9149,#fe4a2f);
+} 
+
+/*==About Section==*/
+.about-section{
+    display: flex;
+    margin-bottom: 95px;
+}
+
+.ab-banner{
+    background-image: url(images/shapes/about_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ab-img img{
+    width: 55%;
+    height: auto;
+    margin: 70px 70px 0 190px;
+}
+
+.right-sec{
+    margin: 84px 153px 0 60px;
+    padding: 0 42px;
+}
+
+.right-sec h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(107, 106, 106);
+}
+
+.right-sec p{
+    font-weight: 400;
+    color: black;
+}
+
+.right-sec .link-btn{
+    padding-top: 50px;
+}
+
+/*==Recipe Section==*/
+.recipe-section{
+    display: flex;
+    margin: 0 80px 95px 80px ;
+}
+
+.recipe-heading{
+    text-align: center;
+    padding: 0 340px;
+    margin-bottom: 90px;
+}
+
+.recipe-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(107, 106, 106);
+}
+
+.recipe-heading p{
+    margin-top: 30px;
+}
+
+.recipe-card{
+    box-shadow: 5px 5px 25px rgb(223, 223, 223);
+    border-radius: 30px;
+    margin: 0 25px;
+    padding: 25px;
+}
+
+.recipe-section h1{
+    font-size: 30px;
+    color: black;
+    margin-top: 42px;
+}
+
+/*==Happy Client Section==*/
+.happy-client{
+    display: flex;
+    box-shadow: 5px 5px 25px rgb(223, 223, 223);
+    border-radius: 30px;
+    margin: 0 98px 95px 98px;
+    padding: 25px;
+}
+
+.happy-client div{
+    margin: 15px 122px;
+    text-align: center;
+}
+
+.happy-client h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/*==Footer Section==*/
+.footer{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 80px;
+}
+
+.footer p{
+    color: white;
+    padding: 20px;
+}
+
+.footer h1{
+    color: rgb(124, 124, 124);
+    padding-top: 50px;
+}

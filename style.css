@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    color: orange;
+}
+
+.color-text{
+    color: orange;
+}
+
+.re-shape-w{
+    margin-bottom: 5px;
+}
+
+.re-shape{
+    margin: 5px 0;
+    
+}
+
+.special{
+    display: flex;
+}
+
+.half{
+    width: 50%;
+    padding: 0 0 0 3%;
+    margin: 5px auto;
+}
+
+.s-half{
+    margin-top: 100px;
+
+}
+
+.half img{
+    width: 100%;
+}
+
+.textp{
+    text-align: justify;
+}
+
+.link-btn{
+    text-decoration: none;
+    /*background-color: orange;*/
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.btn-all{
+    margin-top: 30px;
+
+}
+
+
+.banner-top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.gap{
+    margin: 100px 0;
+}
+
+.banner-top2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.textp2{
+    padding-right: 40px;
+    text-align: justify;
+}
+
+.half-width{
+    display: flex;
+    padding: 10px 20px 20px;
+    margin: 0 40px;
+}
+
+.pad-e{
+    padding-left: 40px;
+}
+
+.text-p{
+    text-align: justify;
+}
+
+/*
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+*/
+
+.half-width{
+    display: flex;
+}
+
+.shadow{
+    box-shadow: 10px 10px 40px rgb(156, 155, 155)
+}
+
+#stack-developer{
+    padding: 0 30px;
+    margin: 0 20px 0 25px;
+
+    border-left: 7px solid;
+    border-image: linear-gradient(#ec5a44, rgba(18, 165, 165, 0.815));
+    border-image-slice: 1;
+}
+
+#baby-developer{
+    padding: 0 30px;
+    margin: 0 20px 0 25px;
+
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(25, 25, 224), rgba(18, 165, 165, 0.815));
+    border-image-slice: 1;
+}
+
+.footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: orange;
+}
+
+/* Another way to apply images*/
+.experience-area{
+    content: "";
+    position: relative;
+}
+
+.img-exp{
+    position: absolute;
+    margin-top: 170px;
+       
+}
+
+.img-exp img {
+    opacity: 0.8;
+  }
