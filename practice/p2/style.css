@@ -50,11 +50,10 @@ body{
 }
 
 .players{
-    margin-top: 60px;
     background: white;
     height: 679px;
     width: 870px;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
 .all-players {
@@ -67,6 +66,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.players h1{
+    padding: 30px 0 0 75px;
+    color: blue;
+    font-size: 24px;
 }
 
 .players-img img{
