@@ -62,3 +62,24 @@ padding: 15px; */
     Highlights Information
 -----------------------------*/
 
+.highlights-news {
+    display: flex;
+    align-items: center;
+    margin: 70px 0 165px 0;
+}
+
+.highlights-info {
+    padding-left: 170px;
+    padding-right: 66px;
+}
+
+.highlights-info h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.highligts-img img {
+    width: 567px;
+    height: 427px;
+    margin-right: 125px;
+}
