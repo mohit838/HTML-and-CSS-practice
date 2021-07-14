@@ -110,7 +110,6 @@ body{
     height: 328px;
 }
 
-
 /*---------------------------
     All Players information
             card
@@ -198,7 +197,6 @@ body{
     padding-left: 10px;
 }
 
-
 /*---------------------------
     Footer Area
 -----------------------------*/
@@ -230,7 +228,7 @@ body{
 }
 
 .copywrite-text {
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 63px;
 }
@@ -239,6 +237,98 @@ body{
 /*---------------------------
     Media Query
 -----------------------------*/
+
+
+/* Mobile Device Reponsive */
+@media screen and (max-width: 480px) {
+
+    /* Header Responsive */
+
+    .header-section {
+        height: 650px;
+        width: 100%;
+    }
+
+    .menu-area {
+        display: none;
+    }
+
+    .header-display-item {
+        flex-direction: column;
+        padding: 36px 15px;
+    }
+
+    .slider-text h1 {
+        font-size: 36px;
+        font-weight: 700;
+        color: white;
+        line-height: 50px;
+        margin-bottom: 27px;
+    }
+    
+    .slider-img img{
+        width: 329px;
+        height: 259px;
+        margin-top: 75px;
+    }
+
+
+    /* Players Info Responsive */
+
+    .football-players {
+        flex-direction: column;
+        margin: 47px 0 0 0;
+        align-items: center;
+    }
+
+    .all-players-info {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 27px 0;
+    }
+
+
+    /* Highlights News Responsive */
+
+    .highlights-news {
+        flex-direction: column;
+        margin: 60px 0 0 60px;
+    }
+    
+    .highlights-info {
+        padding: 0 0 0 15px;
+    }
+    
+    .highlights-info h1{
+        font-size: 33px;
+        font-weight: 700;
+        padding-right: 0;
+    }
+    
+    .highlights-info p{
+        padding: 0 70px 0 0;
+    } 
+    
+    .highligts-img img {
+        width: 328px;
+        height: 248px;
+        margin-top: 65px;
+        padding-left: 60px;
+    }
+
+
+    /* Footer Responsive */
+
+    .footer-img img {
+        width: 271px;
+        height: 63px;
+        margin-top: 43px;
+    }
+
+    .footer-area {
+        margin-bottom: 187px;
+    }
+}
 
 
 
