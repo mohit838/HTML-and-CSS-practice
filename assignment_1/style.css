@@ -159,7 +159,6 @@ body{
 }
 
 .highlights-info {
-    width: 50%;
     padding-right: 131px;
 }
 
@@ -173,14 +172,10 @@ body{
     padding-right: 75px;
 }
 
-.highligts-img {
-    width: 50%;
-}
-
 .highligts-img img {
-    width: 100%;
+    width: 490px;
     height: auto;
-    margin-right: 125px;
+    margin-top: 65px;
 }
 
 .watch-now-btn {
