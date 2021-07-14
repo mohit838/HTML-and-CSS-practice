@@ -237,7 +237,7 @@ body{
     Media Query
 -----------------------------*/
 
-/* Mobile Device 480px Reponsive */
+/* Mobile Device 480px */
 @media only screen and (max-width: 480px) {
 
     /* Header Responsive */
@@ -290,11 +290,11 @@ body{
 
     .highlights-news {
         flex-direction: column;
-        margin: 60px 0 0 60px;
+        margin: 60px 0 0 0;
     }
     
     .highlights-info {
-        padding: 0 0 0 15px;
+        padding: 0 0 0 60px;
     }
     
     .highlights-info h1{
@@ -310,8 +310,6 @@ body{
     .highligts-img img {
         width: 328px;
         height: 248px;
-        margin-top: 65px;
-        padding-left: 60px;
     }
 
 
