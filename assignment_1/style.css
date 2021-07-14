@@ -18,8 +18,36 @@ body{
 /*---------------------
     Header Style
 -----------------------*/
+.header-section {
+   background: #2D25A0;
+   height: 677px;
+   width: 1440px;
+}
 
+.header-display-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 135px 65px 86px 65px;
+}
 
+.slider-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+
+.slider-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.slider-img img{
+    width: 428px;
+    height: 328px;
+}
 
 
 /*---------------------------
@@ -35,7 +63,7 @@ padding: 15px; */
 .football-players {
     display: flex;
     justify-content: center;
-    margin: 70px 0 165px 0;
+    margin: 70px 180px 165px 180px;
 }
 
 .all-players-info {
@@ -97,12 +125,50 @@ padding: 15px; */
     text-decoration: none;
     color: white;
     background-color: #E02C6D;
-    padding: 10px 24px;
+    padding: 10px 18px 10px 24px;
     font-weight: 500;
 }
 
-/* .watch-now-btn a i{
+.watch-now-btn a i{
     text-decoration: none;
     color: white;
-    font-weight: 500;
-} */
+    padding-left: 10px;
+}
+
+
+/*---------------------------
+    Footer Area
+-----------------------------*/
+
+.footer-area {
+    text-align: center;
+}
+
+.footer-img img {
+    width: 482px;
+    height: 150px;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.social-icons i {
+    font-size: 18px;
+    color: #969BAB;
+    padding: 6px;
+    margin: 7px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #d6d7dd;
+}
+
+.copywrite-text {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 63px;
+}
+
