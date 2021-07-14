@@ -242,9 +242,8 @@ body{
     Media Query
 -----------------------------*/
 
-
 /* Mobile Device 480px Reponsive */
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
     /* Header Responsive */
 
@@ -339,7 +338,7 @@ body{
 }
 
 /* Mobile Device 768px Reponsive */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     /* Header Responsive */
     .header-section {
