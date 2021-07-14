@@ -338,7 +338,7 @@ body{
 }
 
 /* Mobile Device 768px Reponsive */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) {
 
     /* Header Responsive */
     .header-section {
